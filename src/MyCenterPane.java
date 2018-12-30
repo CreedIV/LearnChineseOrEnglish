@@ -22,7 +22,8 @@ public class MyCenterPane extends FlowPane{
     }
     
     protected void playSound(String rightOrWrong) {
-    	String filename = rightOrWrong + ".mp3";
+    	String filename = "./audio/" + rightOrWrong + ".mp3";
+    	System.out.println(filename);
     	URL resource = getClass().getResource(filename);
         MyUtils.playSoundFile(resource);
 	}

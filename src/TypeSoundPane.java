@@ -43,7 +43,7 @@ public class TypeSoundPane extends MyCenterPane{
 
     protected void playSound() {
     	String filename = lessonData.get(currWord)[dstLang.ordinal()].replaceAll("[ .?!,]", "") + ".wav";
-    	String path = "./lesson" + parent.lessonNum + "/" + partialPath + "/" + filename;
+    	String path = "./audio/lesson" + parent.lessonNum + "/" + partialPath + "/" + filename;
     	System.out.println(path);
     	URL resource = getClass().getResource(path);
         MyUtils.playSoundFile(resource);

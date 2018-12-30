@@ -213,7 +213,7 @@ public class LivingLanguageChinese extends LanguageLesson {
     	case 5:
     		lessonVocab1.add(new String[] { "yi1she1ng", "doctor"});
     		lessonVocab1.add(new String[] { "hu4shi", "nurse"});
-    		lessonVocab1.add(new String[] { "ji1ngcha2", "police officer"});
+    		lessonVocab1.add(new String[] { "ji3ngcha2", "police officer"});
     		lessonVocab1.add(new String[] { "zha4oxia4ngji1", "camera"});
     		lessonVocab1.add(new String[] { "zhi3", "paper"});
     		lessonVocab1.add(new String[] { "bi3", "pen"});
@@ -229,9 +229,9 @@ public class LivingLanguageChinese extends LanguageLesson {
     		grammarBuilder1.add(new String[] { "hu4shi", "the nurse"});
     		grammarBuilder1.add(new String[] { "hu4shi de", "the nurse's"});
     		grammarBuilder1.add(new String[] { "hu4shi de wa4ita4o", "the nurse's coat"});
-    		grammarBuilder1.add(new String[] { "ji1ngcha2", "the police officer"});
-    		grammarBuilder1.add(new String[] { "ji1ngcha2 de", "the police officer's"});
-    		grammarBuilder1.add(new String[] { "ji1ngcha2 de ma4ozi", "the police officer's hat"});
+    		grammarBuilder1.add(new String[] { "ji3ngcha2", "the police officer"});
+    		grammarBuilder1.add(new String[] { "ji3ngcha2 de", "the police officer's"});
+    		grammarBuilder1.add(new String[] { "ji3ngcha2 de ma4ozi", "the police officer's hat"});
     		grammarBuilder1.add(new String[] { "wo3 de", "my"});
     		grammarBuilder1.add(new String[] { "ni3 de", "your"});
     		grammarBuilder1.add(new String[] { "wo3men de", "our"});
@@ -292,8 +292,8 @@ public class LivingLanguageChinese extends LanguageLesson {
 		
 			lessonWorkOut2.add(new String[] { "Ta1 de mu3qi1n shi4 ha3o hu4shi", "His mother is a good nurse"});
 			lessonWorkOut2.add(new String[] { "Hu4shi de xie2zi shi4 ba2i de", "The nurse's shoes are white"});
-			lessonWorkOut2.add(new String[] { "Ta1 de ta4itai shi4 ha3o ji1ngcha2", "His wife is a good police officer"});
-			lessonWorkOut2.add(new String[] { "Ji1ngcha2 de wa4ita4o shi4 la2n de", "The police officer's coat is blue"});
+			lessonWorkOut2.add(new String[] { "Ta1 de ta4itai shi4 ha3o ji3ngcha2", "His wife is a good police officer"});
+			lessonWorkOut2.add(new String[] { "ji3ngcha2 de wa4ita4o shi4 la2n de", "The police officer's coat is blue"});
 			break;
     	case 6:
     		lessonVocab1.add(new String[] { "za4i", "to be at"});
@@ -330,18 +330,18 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonVocab2.add(new String[] { "lu5gua3n", "hotel"});
     		lessonVocab2.add(new String[] { "yi1yua4n", "hospital"});
     		lessonVocab2.add(new String[] { "ce4suo3", "restroom"});
-    		lessonVocab2.add(new String[] { "ji3ngcha2ju2", "police station"});
+    		lessonVocab2.add(new String[] { "ji3ngcha2 ju2", "police station"});
     		lessonVocab2.add(new String[] { "shu1dia4n", "bookstore"});
     		lessonVocab2.add(new String[] { "xue2xia4o", "school"});
     		
-    		grammarBuilder2.add(new String[] { "Ni3 qu4 na3li", "Where are you going?"});
+    		grammarBuilder2.add(new String[] { "Ni3 qu4 na3li?", "Where are you going?"});
     		grammarBuilder2.add(new String[] { "Wo3 qu4 lu5gua3n", "I am going to the hotel"});
     		grammarBuilder2.add(new String[] { "Lu5gua3n za4i na3li?", "Where is the hotel?"});
     		grammarBuilder2.add(new String[] { "Lu5gua3n za4i yo2uju2 pa2ngbia1n", "The hotel is next to the postoffice"});
     		grammarBuilder2.add(new String[] { "Ta1 qu4 na3li?", "Where is he going?"});
     		grammarBuilder2.add(new String[] { "Ta1 qu4 yi1yua4n", "He is going to the hospital"});
     		grammarBuilder2.add(new String[] { "Yi1yua4n za4i na3li?", "Where is the hospital?"});
-    		grammarBuilder2.add(new String[] { "Yi1yua4n za4i xue2xia4o pe2ngbia1n", "The hospital is next to the school"});
+    		grammarBuilder2.add(new String[] { "Yi1yua4n za4i xue2xia4o pa2ngbia1n", "The hospital is next to the school"});
     		grammarBuilder2.add(new String[] { "Wo3men qu4 na3li?", "Where are we going?"});
     		grammarBuilder2.add(new String[] { "Wo3men qu4 shu1dia4n", "We're going to the bookstore"});
     		grammarBuilder2.add(new String[] { "Shu1dia4n za4i na3li?", "Where is the bookstore?"});
@@ -353,7 +353,7 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonWorkOut1.add(new String[] { "Ji3ngcha2 ju2 za4i xue2xia4o do1ng bia1n", "The police station is on the east side of the school"});
     		lessonWorkOut1.add(new String[] { "Ji3ngcha2 ju2 za4i xi4yua4n xi1 bia1n", "The police station is on the west side of the theater"});
     		lessonWorkOut1.add(new String[] { "Ta1men qu4 na3li?", "Where are they going?"});
-    		lessonWorkOut1.add(new String[] { "Ta1men qu4 ce4cuo3", "They're going to the restroom"});
+    		lessonWorkOut1.add(new String[] { "Ta1men qu4 ce4suo3", "They're going to the restroom"});
     		lessonWorkOut1.add(new String[] { "Ce4suo3 za4i na3li?", "Where is the restroom?"});
     		lessonWorkOut1.add(new String[] { "Ce4suo3 za4i shi4cha3ng pa2ngbia1n", "The restroom is next to the market"});
     		lessonWorkOut1.add(new String[] { "Shi4cha3ng za4i zhe4li", "The market is here"});
@@ -363,14 +363,14 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonWorkOut2.add(new String[] { "Wo3 qu4 yo2uju2", "I am going to the post office"});
     		lessonWorkOut2.add(new String[] { "Yo2uju2 za4i na3li?", "Where is the post office?"});
     		lessonWorkOut2.add(new String[] { "Yo2uju2 za4i yi1yua4n be3i bia1n", "The post office is north of the hospital"});
-    		lessonWorkOut2.add(new String[] { "W3omen qu4 na3li?", "Where are we going?"});
+    		lessonWorkOut2.add(new String[] { "Wo3men qu4 na3li?", "Where are we going?"});
     		lessonWorkOut2.add(new String[] { "Wo3men qu4 ca1ngua3n", "We're going to the restaurant"});
     		lessonWorkOut2.add(new String[] { "Ca1ngua3n za4i na3li?", "Where is the restaurant?"});
     		lessonWorkOut2.add(new String[] { "Ca1ngua3n za4i lu5gua3n do1ng bia1n", "The restaurant is on the east side of the hotel"});
     		lessonWorkOut2.add(new String[] { "Da4 yi1yua4n za4i na3li?", "Where is the large hospital?"});
-    		lessonWorkOut2.add(new String[] { "Da4 yi1yua4n za4i xia3o ji1ngcha2 ju2 xi1 bia1n", "The large hospital is to the west of the small police station"});
-    		lessonWorkOut2.add(new String[] { "Ji1ngcha2 ju2 za4i na3li?", "Where is the police station?"});
-    		lessonWorkOut2.add(new String[] { "Ji1ngcha2 ju2 za4i zhe4li", "The police station is here"});
+    		lessonWorkOut2.add(new String[] { "Da4 yi1yua4n za4i xia3o ji3ngcha2 ju2 xi1 bia1n", "The large hospital is to the west of the small police station"});
+    		lessonWorkOut2.add(new String[] { "Ji3ngcha2 ju2 za4i na3li?", "Where is the police station?"});
+    		lessonWorkOut2.add(new String[] { "Ji3ngcha2 ju2 za4i zhe4li", "The police station is here"});
     		break;
     	case 7:
     		lessonVocab1.add(new String[] { "qi3ng", "ask for a favor"});
