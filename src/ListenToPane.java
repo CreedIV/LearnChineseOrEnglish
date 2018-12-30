@@ -39,7 +39,7 @@ public class ListenToPane extends MyCenterPane{
             public void handle(ActionEvent ae) {
                 int value = ((MyButton)ae.getTarget()).getValue() + currWord - 5;
             	String filename = lessonData.get(value)[srcLang.ordinal()].replaceAll("[ .?!,]", "") + ".wav";
-            	String path = "/audio/lesson" + parent.lessonNum + "/" + srcLangString + partialPath + "/" + filename;
+            	String path = "./audio/lesson" + parent.lessonNum + "/" + srcLangString + partialPath + "/" + filename;
             	//System.out.println(path);
             	URL resource = getClass().getResource(path);
                 MyUtils.playSoundFile(resource);
@@ -110,9 +110,11 @@ public class ListenToPane extends MyCenterPane{
 	    			dstLangText = AccentTranslator.getTranslator().translate(dstLangText);
 	    		dstLangPrompt[i].setText(dstLangText);
     			playBtn[i].setVisible(true);
+    			srcPlay[i].setVisible(true);;
     		}
     		if(dstLangPrompt[i].getText().equals("")) {
     			playBtn[i].setVisible(false);
+    			srcPlay[i].setVisible(false);;
     		}
     		currWord++;
     		i++;

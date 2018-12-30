@@ -379,7 +379,7 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonVocab1.add(new String[] { "ca4i", "dish of food"});
     		lessonVocab1.add(new String[] { "dia3nca4i", "to order food"});
     		lessonVocab1.add(new String[] { "she2nme", "what"});
-    		lessonVocab1.add(new String[] { "dia3n she2nme cai4", "What to order?"});
+    		lessonVocab1.add(new String[] { "dia3n she2nme ca4i?", "What to order?"});
     		lessonVocab1.add(new String[] { "ji1", "chicken"});
     		lessonVocab1.add(new String[] { "ka3o", "roast"});
     		lessonVocab1.add(new String[] { "ka3o ji1", "roast chicken"});
@@ -389,11 +389,11 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonVocab1.add(new String[] { "qi1ng zhe1ng", "steamed"});
     		lessonVocab1.add(new String[] { "qi1ng zhe1ng yu2", "steamed fish"});
     		lessonVocab1.add(new String[] { "me2iyo3u", "don't have"});
-    		lessonVocab1.add(new String[] { "yo3u me2iyo3u", "Have or don't have?"});
+    		lessonVocab1.add(new String[] { "yo3u me2iyo3u?", "Have or don't have?"});
     		
-    		grammarBuilder1.add(new String[] { "Q3ingwe4n, ni3men yo3u me2i yo3u qi1ng zhe1ng yu2?", "May I ask, do you have steamed fish?"});
-    		grammarBuilder1.add(new String[] { "Qi3ngwe4n, ni3men yo3u me2i yo3u Be3iji1ng ya1?", "May I ask, do you have Peking duck?"});
-    		grammarBuilder1.add(new String[] { "Qi3ngwe4n, ni3men yo3u me2i yo3u ka3o ji1", "May I ask, do you have roast chicken?"});
+    		grammarBuilder1.add(new String[] { "Qi3ngwe4n, ni3men yo3u me2iyo3u qi1ng zhe1ng yu2?", "May I ask, do you have steamed fish?"});
+    		grammarBuilder1.add(new String[] { "Qi3ngwe4n, ni3men yo3u me2iyo3u Be3iji1ng ka3o ya1?", "May I ask, do you have Peking duck?"});
+    		grammarBuilder1.add(new String[] { "Qi3ngwe4n, ni3men yo3u me2iyo3u ka3o ji1?", "May I ask, do you have roast chicken?"});
 
     		
     		lessonVocab2.add(new String[] { "ho2ng sha1o", "braised"});
@@ -413,18 +413,18 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonVocab2.add(new String[] { "ge3i", "to give"});
     		lessonVocab2.add(new String[] { "Qi3ng ge3i wo3", "Please give me"});
     		
-    		grammarBuilder2.add(new String[] { "Qi3ngge3iwo3", "Pleasebringme"});
-    		grammarBuilder2.add(new String[] { "Qi3ngge3ita1", "Pleasebringher"});
-    		grammarBuilder2.add(new String[] { "Qi3ngge3iwo3men", "Pleasebringus"});
-    		grammarBuilder2.add(new String[] { "Qi3ngge3ita1men", "Pleasebringthem"});
-    		grammarBuilder2.add(new String[] { "wa2n", "bowl(forsoup)"});
-    		grammarBuilder2.add(new String[] { "lia3ngwa3nta1ng", "twobowlsofsoup"});
-    		grammarBuilder2.add(new String[] { "be1i", "cup,glass(forwater)"});
-    		grammarBuilder2.add(new String[] { "sa1nbe3icha2", "threecupsoftea"});
-    		grammarBuilder2.add(new String[] { "pi2ng", "bottleforbottleddrinks"});
-    		grammarBuilder2.add(new String[] { "lia3ngpi2ngpi2jiu3", "twobottlesofbeer"});
+    		grammarBuilder2.add(new String[] { "Qi3ng ge3i wo3", "Please bring me"});
+    		grammarBuilder2.add(new String[] { "Qi3ng ge3i ta1", "Please bring her"});
+    		grammarBuilder2.add(new String[] { "Qi3ng ge3i wo3men", "Please bring us"});
+    		grammarBuilder2.add(new String[] { "Qi3ng ge3i ta1men", "Please bring them"});
+    		grammarBuilder2.add(new String[] { "wa2n", "bowl(for soup)"});
+    		grammarBuilder2.add(new String[] { "lia3ng wa3n ta1ng", "two bowls of soup"});
+    		grammarBuilder2.add(new String[] { "be1i", "cup, glass(for water)"});
+    		grammarBuilder2.add(new String[] { "sa1n be3i cha2", "three cups of tea"});
+    		grammarBuilder2.add(new String[] { "pi2ng", "bottle for bottled drinks"});
+    		grammarBuilder2.add(new String[] { "lia3ng pi2ng pi2jiu3", "two bottles of beer"});
     		grammarBuilder2.add(new String[] { "pa2n", "dish"});
-    		grammarBuilder2.add(new String[] { "yi1pa2nji1", "onechickendish"});
+    		grammarBuilder2.add(new String[] { "yi1 pa2n ji1", "one chicken dish"});
     		
     		lessonWorkOut1.add(new String[] { "Qi3ng ge3i wo3men sa1n wa3n shu1ca4i ta1ng", "Please bring us three vegetable soups"});
     		lessonWorkOut1.add(new String[] { "Qi3ng ge3i ta1 yi1 ge la4 niu2ro4u", "Please bring her one spicy beef"});
@@ -436,7 +436,7 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonWorkOut2.add(new String[] { "N3imen de cha2 he3n ha3o", "Your tea is very good"});
     		lessonWorkOut2.add(new String[] { "Xie4xie4", "Thank you"});
     		lessonWorkOut2.add(new String[] { "Ni3men dia4n she2nme", "What would you like to order?"});
-    		lessonWorkOut2.add(new String[] { "Ni3men yo3u me2iyo3usua1n la4 ta1ng", "Do you have hot and sour soup?"});
+    		lessonWorkOut2.add(new String[] { "Ni3men yo3u me2iyo3usua1n la4 ta1ng?", "Do you have hot and sour soup?"});
     		lessonWorkOut2.add(new String[] { "Wo3men me2iyo3u sua1n la4 ta1ng", "We don't have hot and sour soup"});
     		lessonWorkOut2.add(new String[] { "Yo3u shu1ca4i ji1 ta1ng, pa2igu3 ta1ng", "We have chicken vegetable soup, spare rib soup"});
     		lessonWorkOut2.add(new String[] { "Yo3u me2iyo3u la4 de ta1ng?", "Do you have spicy soup?"});
