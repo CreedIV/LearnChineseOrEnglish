@@ -46,7 +46,7 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonVocab1.add(new String[] { "Ni3", "You"});
     		lessonVocab1.add(new String[] { "Ta1", "He she"});
     		lessonVocab1.add(new String[] { "wo3men", "We Us"});
-    		lessonVocab1.add(new String[] { "Ni3men", "You(plural)"});
+    		lessonVocab1.add(new String[] { "Ni3men", "You(p)"});
     		lessonVocab1.add(new String[] { "Ta1men", "They"});
     		lessonVocab1.add(new String[] { "re2n", "people"});
     		lessonVocab1.add(new String[] { "nu5", "Female"});
@@ -73,7 +73,7 @@ public class LivingLanguageChinese extends LanguageLesson {
     		grammarBuilder2.add(new String[] { "ni3 yo3u", "You have"});
     		grammarBuilder2.add(new String[] { "Ta1 yo3u", "He has"});
     		grammarBuilder2.add(new String[] { "wo3men yo3u", "We have"});
-    		grammarBuilder2.add(new String[] { "Ni3men yo3u", "You(plural) have"});
+    		grammarBuilder2.add(new String[] { "Ni3men yo3u", "You(p) have"});
     		grammarBuilder2.add(new String[] { "Ta1men yo3u", "They have"});
     		grammarBuilder2.add(new String[] { "Wo3 yo3u ge1ge", "I have an older brother"});
     		grammarBuilder2.add(new String[] { "Ni3 yo3u di4di", "You have a younger brother"});
@@ -95,7 +95,7 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonWorkOut1.add(new String[] { "La3oshi1 shi4 nu5re2n ma?", "Is the teacher a woman?"});
     		lessonWorkOut1.add(new String[] { "Ta1 yo3u nu5e2r ma?", "Does she have a daughter?"});
     		lessonWorkOut1.add(new String[] { "Xue2sheng shi4 na2nre2n ma?", "Is the student a man?"});
-    		lessonWorkOut1.add(new String[] { "Ta1 yo3u di4di ma?", "Does she have a younger brother?"});
+    		lessonWorkOut1.add(new String[] { "Ta1 yo3u di4di ma?", "Does he have a younger brother?"});
     		break;
     	case 3:
     		lessonVocab1.add(new String[] { "li2ng", "zero"});
@@ -171,7 +171,7 @@ public class LivingLanguageChinese extends LanguageLesson {
     		grammarBuilder1.add(new String[] { "She2i yo3u zhuo1zi?", "Who has tables?"});
     		grammarBuilder1.add(new String[] { "Ta1 yo3u yi1 zha1ng zhuo1zi", "She has a table"});
     		grammarBuilder1.add(new String[] { "She2i yo3u dia4nhua4?", "Who has a telephone?"});
-    		grammarBuilder1.add(new String[] { "Ni3men yo3u dia4nhua4", "You(plural) have a telephone"});
+    		grammarBuilder1.add(new String[] { "Ni3men yo3u dia4nhua4", "You(p) have a telephone"});
     		grammarBuilder1.add(new String[] { "She2i yo3u dia4nna3o?", "Who has a computer?"});
     		grammarBuilder1.add(new String[] { "Ta1men yo3u dia4nna3o", "They have a computer"});
     		grammarBuilder1.add(new String[] { "She2i yo3u be3n shu1?", "Who has a book?"});
@@ -187,8 +187,8 @@ public class LivingLanguageChinese extends LanguageLesson {
     		grammarBuilder2.add(new String[] { "Wo3 yo3u lia3ng be3n shu1", "I have two books"});
     		grammarBuilder2.add(new String[] { "Wo3men yo3u jiu3 lia4ng che1", "We have nine cars"});
     		grammarBuilder2.add(new String[] { "Ta1 yo3u shi2 lia4ng zi4xi2ngche1", "She has ten bicycles"});
-    		grammarBuilder2.add(new String[] { "Ni3men yo3u si4 ta2i dia4nhua4", "You(plural) have four telephones"});
-    		grammarBuilder2.add(new String[] { "Ni3 yo3u wu3 ta2i dia4nshi4", "You(singular) have five televisions"});
+    		grammarBuilder2.add(new String[] { "Ni3men yo3u si4 ta2i dia4nhua4", "You(p) have four telephones"});
+    		grammarBuilder2.add(new String[] { "Ni3 yo3u wu3 ta2i dia4nshi4", "You have five televisions"});
     		grammarBuilder2.add(new String[] { "Wo3 yo3u liu4 ta2i dia4nna3o", "I have six computers"});
     		grammarBuilder2.add(new String[] { "Ta1men yo3u qi1 ta2i bi1ngxia1ng", "They have seven refrigerators"});
     		grammarBuilder2.add(new String[] { "Ta1 yo3u yi1 zha1ng zhuo1zi", "She has one table"});
@@ -235,16 +235,16 @@ public class LivingLanguageChinese extends LanguageLesson {
     		grammarBuilder1.add(new String[] { "wo3 de", "my"});
     		grammarBuilder1.add(new String[] { "ni3 de", "your"});
     		grammarBuilder1.add(new String[] { "wo3men de", "our"});
-    		grammarBuilder1.add(new String[] { "ni3men de", "your (plural)"});
+    		grammarBuilder1.add(new String[] { "ni3men de", "your(p)"});
     		grammarBuilder1.add(new String[] { "ta1 de", "his"});
     		grammarBuilder1.add(new String[] { "ta1 de", "her"});
     		grammarBuilder1.add(new String[] { "ta1men de", "their"});
     		grammarBuilder1.add(new String[] { "wo3men de zha4oxia4ngji1", "our camera"});
-    		grammarBuilder1.add(new String[] { "ni3men de zhi3", "your(plural) paper"});
+    		grammarBuilder1.add(new String[] { "ni3men de zhi3", "your(p) paper"});
     		grammarBuilder1.add(new String[] { "ta1 de ma4ozi", "her hat"});
     		grammarBuilder1.add(new String[] { "ta1men de zha4oxia4ngji1", "their camera"});
     		grammarBuilder1.add(new String[] { "Zha4oxia4ngji1 shi4 wo3men de", "The camera is ours"});
-    		grammarBuilder1.add(new String[] { "Zhi3 shi4 ni3men de", "The paper is yours(plural)"});
+    		grammarBuilder1.add(new String[] { "Zhi3 shi4 ni3men de", "The paper is yours(p)"});
     		grammarBuilder1.add(new String[] { "Ma4ozi shi4 ta1 de", "The hat is hers"});
     		grammarBuilder1.add(new String[] { "Zha4oxia4ngji1 shi4 ta1men de", "The camera is theirs"});
     		
@@ -283,8 +283,8 @@ public class LivingLanguageChinese extends LanguageLesson {
 			lessonWorkOut1.add(new String[] { "Ni3 de lu5 wa4ita4o shi4 jiu4 de", "Your green coat is old"});
 			lessonWorkOut1.add(new String[] { "Ta1 de zha4oxia4ngji1 shi4 ha3o de", "Her camera is good"});
 			lessonWorkOut1.add(new String[] { "Ta1 de da4 zha4oxia4ngji1 shi4 ha3o de", "Her large camera is good"});
-			lessonWorkOut1.add(new String[] { "Zhi3 shi4 ni3men de", "The paper is yours(plural)"});
-			lessonWorkOut1.add(new String[] { "Ho2ng zhi3 shi4 ni3men de", "The red paper is yours(plural)"});
+			lessonWorkOut1.add(new String[] { "Zhi3 shi4 ni3men de", "The paper is yours(p)"});
+			lessonWorkOut1.add(new String[] { "Ho2ng zhi3 shi4 ni3men de", "The red paper is yours(p)"});
 			lessonWorkOut1.add(new String[] { "Bi3 shi4 wo3men de", "The pens are ours"});
 			lessonWorkOut1.add(new String[] { "He1i bi3 shi4 wo3men de", "The black pens are ours"});
 			lessonWorkOut1.add(new String[] { "Ma4ozi shi4 ta1men de", "The hats are theirs"});
@@ -391,9 +391,9 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonVocab1.add(new String[] { "me2iyo3u", "don't have"});
     		lessonVocab1.add(new String[] { "yo3u me2iyo3u?", "Have or don't have?"});
     		
-    		grammarBuilder1.add(new String[] { "Qi3ngwe4n, ni3men yo3u me2iyo3u qi1ng zhe1ng yu2?", "May I ask, do you have steamed fish?"});
-    		grammarBuilder1.add(new String[] { "Qi3ngwe4n, ni3men yo3u me2iyo3u Be3iji1ng ka3o ya1?", "May I ask, do you have Peking duck?"});
-    		grammarBuilder1.add(new String[] { "Qi3ngwe4n, ni3men yo3u me2iyo3u ka3o ji1?", "May I ask, do you have roast chicken?"});
+    		grammarBuilder1.add(new String[] { "Qi3ngwe4n ni3men yo3u me2iyo3u qi1ng zhe1ng yu2?", "May I ask, do you have steamed fish?"});
+    		grammarBuilder1.add(new String[] { "Qi3ngwe4n ni3men yo3u me2iyo3u Be3iji1ng ka3o ya1?", "May I ask, do you have Peking duck?"});
+    		grammarBuilder1.add(new String[] { "Qi3ngwe4n ni3men yo3u me2iyo3u ka3o ji1?", "May I ask, do you have roast chicken?"});
 
     		
     		lessonVocab2.add(new String[] { "ho2ng sha1o", "braised"});
@@ -417,10 +417,10 @@ public class LivingLanguageChinese extends LanguageLesson {
     		grammarBuilder2.add(new String[] { "Qi3ng ge3i ta1", "Please bring her"});
     		grammarBuilder2.add(new String[] { "Qi3ng ge3i wo3men", "Please bring us"});
     		grammarBuilder2.add(new String[] { "Qi3ng ge3i ta1men", "Please bring them"});
-    		grammarBuilder2.add(new String[] { "wa2n", "bowl(for soup)"});
+    		grammarBuilder2.add(new String[] { "wa3n", "bowl(for soup)"});
     		grammarBuilder2.add(new String[] { "lia3ng wa3n ta1ng", "two bowls of soup"});
     		grammarBuilder2.add(new String[] { "be1i", "cup, glass(for water)"});
-    		grammarBuilder2.add(new String[] { "sa1n be3i cha2", "three cups of tea"});
+    		grammarBuilder2.add(new String[] { "sa1n be1i cha2", "three cups of tea"});
     		grammarBuilder2.add(new String[] { "pi2ng", "bottle for bottled drinks"});
     		grammarBuilder2.add(new String[] { "lia3ng pi2ng pi2jiu3", "two bottles of beer"});
     		grammarBuilder2.add(new String[] { "pa2n", "dish"});
@@ -429,28 +429,65 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonWorkOut1.add(new String[] { "Qi3ng ge3i wo3men sa1n wa3n shu1ca4i ta1ng", "Please bring us three vegetable soups"});
     		lessonWorkOut1.add(new String[] { "Qi3ng ge3i ta1 yi1 ge la4 niu2ro4u", "Please bring her one spicy beef"});
     		lessonWorkOut1.add(new String[] { "Qi3ng ge3i wo3 yi1 ge ho2ng sha1o ji1, yi1 ge ka3o ya1", "Please bring me one braised chicken, one roast duck"});
-    		lessonWorkOut1.add(new String[] { "Qi3ng ge3i wo3men lia3ng be3i cha2, sa1n pi2ng pi2jiu3", "Please bring us two teas, three beers"});
-    		lessonWorkOut1.add(new String[] { "Qi3ng ge3i ta1men lia3ng be3i ho2ng jiu3", "Please bring them two red wines"});
-    		lessonWorkOut1.add(new String[] { "Qi3ng ge3i wo3 yi1 ge bi1ngqi2li2ng", "Please bring me one icecream"});
+    		lessonWorkOut1.add(new String[] { "Qi3ng ge3i wo3men lia3ng be1i cha2, sa1n pi2ng pi2jiu3", "Please bring us two teas, three beers"});
+    		lessonWorkOut1.add(new String[] { "Qi3ng ge3i ta1men lia3ng be1i ho2ng jiu3", "Please bring them two red wines"});
+    		lessonWorkOut1.add(new String[] { "Qi3ng ge3i wo3 yi1 ge bi1ngji2li2ng", "Please bring me one icecream"});
     		
-    		lessonWorkOut2.add(new String[] { "N3imen de cha2 he3n ha3o", "Your tea is very good"});
+    		lessonWorkOut2.add(new String[] { "Ni3men de cha2 he3n ha3o", "Your(p) tea is very good"});
     		lessonWorkOut2.add(new String[] { "Xie4xie4", "Thank you"});
-    		lessonWorkOut2.add(new String[] { "Ni3men dia4n she2nme", "What would you like to order?"});
-    		lessonWorkOut2.add(new String[] { "Ni3men yo3u me2iyo3usua1n la4 ta1ng?", "Do you have hot and sour soup?"});
+    		lessonWorkOut2.add(new String[] { "Ni3men dia4n she2nme?", "What would you(p) like to order?"});
+    		lessonWorkOut2.add(new String[] { "Ni3men yo3u me2iyo3u sua1n la4 ta1ng?", "Do you(p) have hot and sour soup?"});
     		lessonWorkOut2.add(new String[] { "Wo3men me2iyo3u sua1n la4 ta1ng", "We don't have hot and sour soup"});
-    		lessonWorkOut2.add(new String[] { "Yo3u shu1ca4i ji1 ta1ng, pa2igu3 ta1ng", "We have chicken vegetable soup, spare rib soup"});
-    		lessonWorkOut2.add(new String[] { "Yo3u me2iyo3u la4 de ta1ng?", "Do you have spicy soup?"});
-    		lessonWorkOut2.add(new String[] { "La4 de niu2ro4u ta1ng", "Spicy beef soup"});
-    		lessonWorkOut2.add(new String[] { "Qi3ngwe4n ni3men yo3u she2nme yu2?", "May I ask, what fish do you have?"});
+    		lessonWorkOut2.add(new String[] { "Yo3u shu1ca4i ji1 ta1ng, pa2igu3 ta1ng", "(We) have chicken vegetable soup, spare rib soup"});
+    		lessonWorkOut2.add(new String[] { "Yo3u me2iyo3u la4 de ta1ng?", "(Do you) have spicy soup?"});
+    		lessonWorkOut2.add(new String[] { "La4 de niu2ro4u de ta1ng", "Spicy beef soup"});
+    		lessonWorkOut2.add(new String[] { "Qi3ngwe4n ni3men yo3u she2nme yu2?", "May I ask, what fish do you(p) have?"});
     		lessonWorkOut2.add(new String[] { "Hua2ng yu2 he3n ha3o", "Yellow fish is good"});
-    		lessonWorkOut2.add(new String[] { "Wo3men you3 qi1ng zhe1ng de, ho2ng sha1o de", "We have steamed and braised"});
-    		lessonWorkOut2.add(new String[] { "Qi3ngwe4n yo3u me2iyo3u ho2ng sha1o niu2ro4u?", "May I ask, do you have braised beef?"});
-    		lessonWorkOut2.add(new String[] { "Me2iyo3u", "We don't"});
+    		lessonWorkOut2.add(new String[] { "Wo3men yo3u qi1ng zhe1ng de, ho2ng sha1o de", "We have steamed (and) braised"});
+    		lessonWorkOut2.add(new String[] { "Qi3ngwe4n yo3u me2iyo3u ho2ng sha1o niu2ro4u?", "May I ask, do (you) have braised beef?"});
+    		lessonWorkOut2.add(new String[] { "Me2iyo3u", "(We) don't"});
     		lessonWorkOut2.add(new String[] { "Wo3men yo3u ho2ng sha1o zhu1ro4u", "We have braised pork"});
-    		lessonWorkOut2.add(new String[] { "Cha3o niu2ro4u ne?", "And stir-fried beef?"});
-    		lessonWorkOut2.add(new String[] { "Yo3u", "We have"});
+    		lessonWorkOut2.add(new String[] { "Cha3o niu2ro4u ne?", "(And) stir-fried beef?"});
+    		lessonWorkOut2.add(new String[] { "Yo3u", "(We) have"});
     		lessonWorkOut2.add(new String[] { "Ha3o", "Good"});
     		break;
+    	case 8:
+    		lessonVocab1.add(new String[] { "xia4nza4i", "now"});
+    		lessonVocab1.add(new String[] { "ji3", "How many?"});
+    		lessonVocab1.add(new String[] { "dia3n", "hour"});
+    		lessonVocab1.add(new String[] { "dia3n zho1ng", "o'clock"});
+    		lessonVocab1.add(new String[] { "Xia4nza4i ji3 dia3n?", "What time is it now?"});
+    		lessonVocab1.add(new String[] { "fe1n", "minute"});
+    		lessonVocab1.add(new String[] { "sa1n dia3n sa1nshi2 fe1n", "three thirty"});
+    		lessonVocab1.add(new String[] { "zuo4", "to make"});
+    		lessonVocab1.add(new String[] { "chi1", "to eat"});
+    		lessonVocab1.add(new String[] { "za3oca1n", "breakfast"});
+    		lessonVocab1.add(new String[] { "wu3ca1n", "lunch"});
+    		lessonVocab1.add(new String[] { "wa3nca1n", "dinner"});
+    		lessonVocab1.add(new String[] { "za3oshang", "morning"});
+    		lessonVocab1.add(new String[] { "zho1ngwu3", "noon"});
+    		lessonVocab1.add(new String[] { "xia4wu3", "afternoon"});
+    		lessonVocab1.add(new String[] { "wa3nzhang", "night"});
+    		
+    		grammarBuilder1.add(new String[] { "Ta1 ji3 dia3n chi1 za3oca1n?", "What time does he eat breakfast?"});
+    		grammarBuilder1.add(new String[] { "Ta1 ba4 dia3n chi1 za3oca1n", "He eats breakfast at eight"});
+    		grammarBuilder1.add(new String[] { "Wu3ca1n shi4 ji3 dia3n?", "What time is lunch?"});
+    		grammarBuilder1.add(new String[] { "Wu3ca1n shi4 zho1ngwu3 shi2e4r dia3n", "Lunch is at twelve noon"});
+    		grammarBuilder1.add(new String[] { "Ni3 ji3 dia3n zuo4 wu3ca1n?", "What time do you make lunch?"});
+    		grammarBuilder1.add(new String[] { "Wo3 za3oshang shi2 dia3n zuo4 wu3ca1n", "I make lunch at ten in the morning"});
+    		grammarBuilder1.add(new String[] { "Ni3 ji3 dia3n chi1 wa3nca1n?", "What time do you eat dinner?"});
+    		grammarBuilder1.add(new String[] { "Wo3 wa3nshang qi1 dia3n chi1 wa3nca1n", "I eat dinner at seven in the evening"});
+    		
+    		lessonVocab2.add(new String[] { "shi2hou", "time(broadly)"});
+    		lessonVocab2.add(new String[] { "shi2jia1n", "time(hour)"});
+    		lessonVocab2.add(new String[] { "she2nme shi2hou?", "what time?"});
+    		lessonVocab2.add(new String[] { "jia4o", "to teach"});
+    		lessonVocab2.add(new String[] { "xue2", "to study"});
+    		lessonVocab2.add(new String[] { "zho1ngwe2n", "Chinese"});
+    		lessonVocab2.add(new String[] { "Yi1ngwe2n", "English"});
+    		lessonVocab2.add(new String[] { "sha4ngba1n", "to be at work"});
+    		lessonVocab2.add(new String[] { "sha4ngxue2", "to be at school"});
+    		lessonVocab2.add(new String[] { "shui4jia4o", "to sleep"});
 
     	}
     }

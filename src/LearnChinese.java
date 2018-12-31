@@ -1,4 +1,6 @@
 
+import java.util.ArrayList;
+
 import javafx.application.*;
 import javafx.scene.*;
 import javafx.stage.*;
@@ -37,6 +39,8 @@ public class LearnChinese extends Application {
     
     // Override the start() method 
     public void start(Stage myStage) {
+    	//testSoundAllLessons(); // for testing/checking if all sound files can be found
+    	
         myStage.setTitle("Learning Mandarin");
         rootNode = new BorderPane();
         Scene myScene = new Scene(rootNode, WIDTH, HEIGHT);
@@ -84,7 +88,7 @@ public class LearnChinese extends Application {
         }
         
         if(currLesson.lessonVocab1.size() > 0) {
-			centerPanes[numPanes++] = new ListenToPane(currLesson.lessonVocab1, "/vocab1", this);
+			centerPanes[numPanes++] = new ListenToPane(currLesson.lessonVocab1, "vocab1", this);
 	        centerPanes[numPanes++] = new MatchPane(currLesson.lessonVocab1, this);
 	        centerPanes[numPanes++] = new TypeTranslationPane(currLesson.lessonVocab1, this);
 	        centerPanes[numPanes++] = new TypeSoundPane(currLesson.lessonVocab1, destLangString + "/vocab1", this);
@@ -96,7 +100,7 @@ public class LearnChinese extends Application {
         }
         
         if(currLesson.lessonVocab2.size() > 0) {
-			centerPanes[numPanes++] = new ListenToPane(currLesson.lessonVocab2, "/vocab2", this);
+			centerPanes[numPanes++] = new ListenToPane(currLesson.lessonVocab2, "vocab2", this);
 	        centerPanes[numPanes++] = new MatchPane(currLesson.lessonVocab2, this);
 	        centerPanes[numPanes++] = new TypeTranslationPane(currLesson.lessonVocab2, this);
 	        centerPanes[numPanes++] = new TypeSoundPane(currLesson.lessonVocab2, destLangString + "/vocab2", this);
@@ -122,9 +126,13 @@ public class LearnChinese extends Application {
         rootNode.setCenter(centerPanes[currCenterPane]);
     }
 
-
-
-    private Pane createBottomPane() {
+    private void testSoundAllLessons() {
+    	for(int i = 1; i < MAXLESSON; i++ ) {
+    		MyUtils.testSoundFilesLivingLangLesson(i);
+    	}
+    }
+    
+	private Pane createBottomPane() {
         FlowPane bottomPane = new FlowPane(10,10);
         bottomPane.setAlignment(Pos.CENTER);
         Button backBtn = new Button("Back");
@@ -212,7 +220,7 @@ public class LearnChinese extends Application {
         mb.getMenus().add(fileMenu);
         
         Menu lessonMenu = new Menu("Lesson");
-        for(Integer i = 1; i < MAXLESSON; i++) {
+        for(Integer i = 1; i <= MAXLESSON; i++) {
         	MenuItem lessoni = new MenuItem("Lesson " + i);
         	lessoni.setId(i.toString());
         	lessoni.setOnAction((ActionEvent ae)->

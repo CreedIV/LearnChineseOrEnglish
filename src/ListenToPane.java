@@ -27,22 +27,15 @@ public class ListenToPane extends MyCenterPane{
         EventHandler<ActionEvent> ButtonHandler = new EventHandler<ActionEvent>() {
             public void handle(ActionEvent ae) {
                 int value = ((MyButton)ae.getTarget()).getValue() + currWord - 5;
-            	String filename = lessonData.get(value)[dstLang.ordinal()].replaceAll("[ .?!,]", "") + ".wav";
-            	String path = "./audio/lesson" + parent.lessonNum + "/" + destLangString + partialPath + "/" + filename;
-            	System.out.println(path);
-            	URL resource = getClass().getResource(path);
-                MyUtils.playSoundFile(resource);
+                MyUtils.playSoundFile( parent.lessonNum, destLangString + "/" + partialPath, lessonData.get(value)[dstLang.ordinal()], null);
+
             }
         };
         
         EventHandler<ActionEvent> ButtonHandlerSrc = new EventHandler<ActionEvent>() {
             public void handle(ActionEvent ae) {
                 int value = ((MyButton)ae.getTarget()).getValue() + currWord - 5;
-            	String filename = lessonData.get(value)[srcLang.ordinal()].replaceAll("[ .?!,]", "") + ".wav";
-            	String path = "./audio/lesson" + parent.lessonNum + "/" + srcLangString + partialPath + "/" + filename;
-            	//System.out.println(path);
-            	URL resource = getClass().getResource(path);
-                MyUtils.playSoundFile(resource);
+                MyUtils.playSoundFile( parent.lessonNum, srcLangString + "/" +partialPath, lessonData.get(value)[srcLang.ordinal()], null);
             }
         };
         
