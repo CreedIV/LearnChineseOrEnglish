@@ -1,6 +1,4 @@
 
-import java.util.ArrayList;
-
 import javafx.application.*;
 import javafx.scene.*;
 import javafx.stage.*;

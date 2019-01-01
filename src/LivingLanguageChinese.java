@@ -488,7 +488,39 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonVocab2.add(new String[] { "sha4ngba1n", "to be at work"});
     		lessonVocab2.add(new String[] { "sha4ngxue2", "to be at school"});
     		lessonVocab2.add(new String[] { "shui4jia4o", "to sleep"});
+    		
+    		grammarBuilder2.add(new String[] { "Xia4nza4i ji3 dia3n zho1ng?", "What time is it?"});
+    		grammarBuilder2.add(new String[] { "Lia2ng dia3n e4rshi2", "Two twenty"});
+    		grammarBuilder2.add(new String[] { "Ta1men she2nme shi2hou xue2 Zho1ngwe2n?", "When do they study Chinese?"});
+    		grammarBuilder2.add(new String[] { "Ta1men wa3nshang xue2 Zho1ngwe3n", "They study Chinese in the evening"});
+    		grammarBuilder2.add(new String[] { "Wa3nshang ji3 dia3n zho1ng?", "What time in the evening?"});
+    		grammarBuilder2.add(new String[] { "Wa3nshang qi1 dia3n", "Seven p.m."});
 
+    		lessonWorkOut1.add(new String[] { "Ni3men she2nme shi2hou sha4ngxue2?", "When do you(p) (all) go to school"});
+    		lessonWorkOut1.add(new String[] { "Wo3men xia4wu3 sha4ngxue2", "We go to school in the afternoon"});
+    		lessonWorkOut1.add(new String[] { "Xia4wu3 ji3 dia3n zho1ng?", "What time in the afternoon?"});
+    		lessonWorkOut1.add(new String[] { "Xia4wu3 si4 dia3n", "Four p.m"});
+    		lessonWorkOut1.add(new String[] { "Ta1 she2nme shi2hou jia4o Yi1ngwe2n?", "When does she teach English?"});
+    		lessonWorkOut1.add(new String[] { "Ta1 za3oshang jia4o Yi1ngwe2n", "She teaches English in the morning"});
+    		lessonWorkOut1.add(new String[] { "Za3oshang ji3 dia3n zho1ng?", "What time in the morning?"});
+    		lessonWorkOut1.add(new String[] { "Za3oshang jiu3 dia3n shi2wu3 fe1n", "Nine fifteen in the morning"});
+    		lessonWorkOut1.add(new String[] { "Za3oca1n shi4 ji3 dia3n zho1ng?", "What time is breakfast?"});
+    		lessonWorkOut1.add(new String[] { "Za3oca1n shi4 ba1 dia3n si4shi2", "Breakfast is at eight forty"});
+    		lessonWorkOut1.add(new String[] { "Ni3 ji3 dia3n sha4ngba1n?", "What time do you go to work?"});
+    		lessonWorkOut1.add(new String[] { "Wo3 za3oshang shi2 dia3n sha4ngba1n", "I go to work at ten a.m"});
+    		lessonWorkOut1.add(new String[] { "Ta1men ji3 dia3n zho1ng zuo4 wu3ca1n?", "What time do they make lunch?"});
+    		lessonWorkOut1.add(new String[] { "Ta1men zho1ngwu3 shi2e4r dia3n zuo4 wu3ca1n", "They make lunch at twelve noon"});
+    		lessonWorkOut1.add(new String[] { "Ni3 ji3 dia3n zho1ng chi1 wa3nca1n?", "What time do you eat dinner?"});
+    		lessonWorkOut1.add(new String[] { "Wo3 qi1 dia3n chi1 wa3nca1n", "I eat dinner at seven"});
+    		lessonWorkOut1.add(new String[] { "Ta1 ji3 dia3n zho1ng shui4jia4o?", "What time does he go to sleep?"});
+    		lessonWorkOut1.add(new String[] { "Ta1 wa3nshang shi2yi1 dia3n shui4jia4o", "He goes to sleep at eleven p.m"});
+
+    		lessonWorkOut2.add(new String[] { "Ni3men she2nme shi2hou zuo4 wu3ca1n?", "When do you(p) make lunch?"});
+    		lessonWorkOut2.add(new String[] { "Wo3men zho1ngwu3 zuo4 wu3ca1n", "We make lunch at noon"});
+    		lessonWorkOut2.add(new String[] { "Ni3 mu3qi1n ji3 dia3n zho1ng jia4o Zho1ngwe2n?", "What time does your mother teach Chinese?"});
+    		lessonWorkOut2.add(new String[] { "Ta1 xia4wu3 sa1n dia3n jia4o Zho1ngwe2n", "She teaches Chinese at three p.m."});
+    		lessonWorkOut2.add(new String[] { "Ni3men ji3 dia3n zho1ng chi1 wu3ca1n?", "What time do you(p) eat dinner?"});
+    		lessonWorkOut2.add(new String[] { "Wo3men xia4nza4i chi1. Ni3 chi1 ma?", "We are eating now. (Would) you (like to) eat?"});
     	}
     }
 }
