@@ -205,7 +205,7 @@ public class LearnChinese extends Application {
 
 	private MenuBar createMenus() {
         MenuBar mb = new MenuBar();
-        
+                
         // Create the File Menu
         Menu fileMenu = new Menu("_File");
         MenuItem exit = new MenuItem("_Exit");

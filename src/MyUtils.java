@@ -60,6 +60,73 @@ public class MyUtils {
 		playSoundFile(resource);
 	}
 	
+	public static Integer lastMistakePoint(String userString, String correctString) {
+		// find the last incorrect character of user input, derived from minEdit algorithm...
+		int m = userString.length();
+		int n = correctString.length();
+		
+		// user string along second axis, correct string along first
+		int[][] distMatrix = new int[n+1][m+1];
+		Character[][] backpoint = new Character[n+1][m+1]; // B is below(insertion), L is left(deletion), D is diag (sub)
+		
+		distMatrix[0][0] = 0;
+		backpoint[0][0] = ' ';
+		for(int i = 1; i < m+1; i++) {
+			distMatrix[0][i] = distMatrix[0][i-1] + 1; // cost of deleteing from user string is 1
+			backpoint[0][i] = 'L';
+		}
+		
+		for(int i = 1; i < n+1; i++) {
+			distMatrix[i][0] = distMatrix[i-1][0] + 1; // cost of inserting chars of correct string is 1
+			backpoint[i][0] = 'B';
+		}
+		for(int i = 1; i < n+1; i++) { // each correct char
+			for(int j = 1; j < m+1; j++) { // each user supplied char
+				if(userString.charAt(j-1) != correctString.charAt(i-1)) {
+					int belowdist =distMatrix[i-1][j] +1; // insertion cost is 1
+					int leftdist = distMatrix[i][j-1] +1; // deletion cost is 1
+					int diagdist = distMatrix[i-1][j-1] + 1; // substitution cost is 1
+					if(diagdist <= leftdist && diagdist <= belowdist) {
+						distMatrix[i][j] = diagdist;
+						backpoint[i][j] = 'D';
+					}else if(leftdist <= belowdist) {
+						distMatrix[i][j] = leftdist;
+						backpoint[i][j] = 'L';
+					}else {
+						distMatrix[i][j] = belowdist;
+						backpoint[i][j] = 'B';
+					}
+				}else { // correctly matching chars have no cost.
+					distMatrix[i][j] = distMatrix[i-1][j-1];
+					backpoint[i][j] = 'D';
+				}
+			}
+		}
+		
+		List<Integer> mistakePoints = new ArrayList<Integer>();
+		int i = n;
+		int j = m;
+		while(i > 0 || j > 0) {
+
+			if(backpoint[i][j] == 'D') {
+				if(distMatrix[i][j] != distMatrix[i-1][j-1])
+					mistakePoints.add(j);
+				i--;
+				j--;
+			}else if(backpoint[i][j] == 'L') {
+				mistakePoints.add(j);
+				j--;
+			}else if(backpoint[i][j] == 'B') {
+				mistakePoints.add(j);
+				i--;
+			}
+		}
+
+		if(!mistakePoints.isEmpty())
+			return mistakePoints.get(0);
+		return null;
+	}
+	
 	
 	// unit Testing functions
 	

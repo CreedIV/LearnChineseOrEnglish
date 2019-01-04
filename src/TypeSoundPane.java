@@ -67,17 +67,19 @@ public class TypeSoundPane extends MyCenterPane{
         
         // when the user hits return, we check what he typed against the expected translation
         tf.setOnAction((ae)->{ 
-        	String userInput = tf.getText();
-    		String correctInput = lessonData.get(currWord)[dstLang.ordinal()];
+        	String userInput = tf.getText().toLowerCase();
+    		String correctInput = lessonData.get(currWord)[dstLang.ordinal()].toLowerCase();
     		if(dstLang == LangEnum.MANDARIN) 
         		correctInput = AccentTranslator.getTranslator().translate(correctInput);
-            if(correctInput.toLowerCase().equals(userInput.toLowerCase())) {
+            if(correctInput.equals(userInput)) {
             	playSound("right");
                 if(!next())
                 	parent.nextExercise();
             }else {
             	playSound("wrong");
+                int lastmistake = MyUtils.lastMistakePoint(userInput, correctInput);
             	feedbackPrompt.setText("The correct answer is: " + correctInput); 
+                tf.selectRange(lastmistake-1, lastmistake);
             }
         });
         return tf;
