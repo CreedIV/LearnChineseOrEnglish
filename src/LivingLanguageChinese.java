@@ -534,10 +534,10 @@ public class LivingLanguageChinese extends LanguageLesson {
     		lessonVocab1.add(new String[] { "go1ngre2n", "laborer"});
     		lessonVocab1.add(new String[] { "sho4uhuo4yua2n", "store clerk"});
     		
-    		grammarBuilder1.add(new String[] { "Ni3 zuo4 she2nme go1ngzuo4 ?", "What work do you do?"});
+    		grammarBuilder1.add(new String[] { "Ni3 zuo4 she2nme go1ngzuo4?", "What work do you do?"});
     		grammarBuilder1.add(new String[] { "Wo3 zuo4 kua4iji4", "I do accounting"});
     		grammarBuilder1.add(new String[] { "Wo3 shi4 kua4iji4shi1", "I am an accountant"});
-    		grammarBuilder1.add(new String[] { "Ta1 zuo4 she2nme go1ngzuo4?", "What does she do ?"});
+    		grammarBuilder1.add(new String[] { "Ta1 zuo4 she2nme go1ngzuo4?", "What does she do?"});
     		grammarBuilder1.add(new String[] { "Ta1 zuo4 go1ngche2ng", "She does engineering"});
     		grammarBuilder1.add(new String[] { "Ta1 shi4 go1ngche2ngshi1", "She is an engineer"});
     		grammarBuilder1.add(new String[] { "Ni3men zuo4 she2nme go1ngzuo4?", "What do you(p) do?"});
@@ -570,22 +570,94 @@ public class LivingLanguageChinese extends LanguageLesson {
     		grammarBuilder2.add(new String[] { "Xi1ngqi1 tia1n wa3nshang yi1shi2 dia3n si4shi2", "Sunday evening at eleven forty p.m."});
     		grammarBuilder2.add(new String[] { "Me3i tia1n za3oshang jiu3 dia3n ba4n", "Every morning at half past nine"});
     		
-    		lessonWorkOut1.add(new String[] { "Ni3 na3 tia1n sha4ngba1n ?", "Which day do you work ?"});
+    		lessonWorkOut1.add(new String[] { "Ni3 na3 tia1n sha4ngba1n?", "Which day do you work?"});
     		lessonWorkOut1.add(new String[] { "Wo3 xi1ngqi1 yi1 sha4ngba1n", "I work on Monday"});
-    		lessonWorkOut1.add(new String[] { "Kua4ji4shi1 na3 tia1n sha4ngba1n", "Which day does the accountant go to work ?"});
+    		lessonWorkOut1.add(new String[] { "Kua4ji4shi1 na3 tia1n sha4ngba1n", "Which day does the accountant go to work?"});
     		lessonWorkOut1.add(new String[] { "Kua4ijii4shi1 me3i xi1ngqi1 sa1n sha4ngba1n", "The accountant works on every Wednesday"});
-    		lessonWorkOut1.add(new String[] { "Lu5shi1 na3 tia1n sha4ngba1n ?", "Which days does the lawyer go to work ?"});
+    		lessonWorkOut1.add(new String[] { "Lu5shi1 na3 tia1n sha4ngba1n?", "Which days does the lawyer go to work?"});
     		lessonWorkOut1.add(new String[] { "Lu5shi1 xi1ngqi1 si4 , xi1ngqi1 wu3 sha4ngba1n", "The lawyer works on Thursday (and) Friday"});
-    		lessonWorkOut1.add(new String[] { "Ta1men she2nme shi2ho4u sha4ngba1n ?", "When do they go to work ?"});
+    		lessonWorkOut1.add(new String[] { "Ta1men she2nme shi2ho4u sha4ngba1n?", "When do they go to work?"});
     		lessonWorkOut1.add(new String[] { "Go1ngre2n me3i tia1n za3oshang qi1 dia3n sha4ngba1n", "The laborers go to work every morning at seven"});
     		lessonWorkOut1.add(new String[] { "Sho4uhuo4yua2n xi1ngqi1 liu4 , xi1ngqi1 tia1n sha4ngba1n", "The store clerks work on Saturday (and) Sunday"});
 
-    		lessonWorkOut2.add(new String[] { "Ni3 zuo4 she2nme go1ngzuo4 ?", "What work do you do ?"});
-    		lessonWorkOut2.add(new String[] { "Wo3 shi4 sho4uhuo4yua2n . Ni3 ne ?", "I am a store clerk . And you ?"});
+    		lessonWorkOut2.add(new String[] { "Ni3 zuo4 she2nme go1ngzuo4?", "What work do you do?"});
+    		lessonWorkOut2.add(new String[] { "Wo3 shi4 sho4uhuo4yua2n . Ni3 ne?", "I am a store clerk . And you?"});
     		lessonWorkOut2.add(new String[] { "Wo3 xi1ngqi1 wu3 , xi1ngqi1 tia1n zuo4 kua4iji4", "I work as an accountant on Fridays (and) Sundays"});
-    		lessonWorkOut2.add(new String[] { "Ni3 xi1ngqi liu4 zuo4 she2nme ?", "What do you do on Saturdays ?"});
+    		lessonWorkOut2.add(new String[] { "Ni3 xi1ngqi liu4 zuo4 she2nme?", "What do you do on Saturdays?"});
     		lessonWorkOut2.add(new String[] { "Wo3 sha4ngxue2", "I go to school"});
+    		break;
+    		
+    	case 10:
+    		lessonVocab1.add(new String[] { "xi3huan", "to like"});
+    		lessonVocab1.add(new String[] { "ka4n", "to watch , to read"});
+    		lessonVocab1.add(new String[] { "dia4nyi3ng", "movies"});
+    		lessonVocab1.add(new String[] { "ba4ozhi3", "newspaper"});
+    		lessonVocab1.add(new String[] { "xia3oshuo1", "novel"});
+    		lessonVocab1.add(new String[] { "ti1ng", "to listen"});
+    		lessonVocab1.add(new String[] { "yi1nyue4", "music"});
+    		lessonVocab1.add(new String[] { "he1", "to drink"});
+    		lessonVocab1.add(new String[] { "ka1fe1i", "coffee"});
+    		lessonVocab1.add(new String[] { "bu4", "no ,"});
+    		lessonVocab1.add(new String[] { "bu4 xi3huan", "do not like"});
+    		
+    		grammarBuilder1.add(new String[] { "Ta1 xi3huan yi1nyue4", "she likes music"});
+    		grammarBuilder1.add(new String[] { "Ta1 xi3huan tin1g yi1nyue4", "She likes to listen to music"});
+    		grammarBuilder1.add(new String[] { "Ta1 bu4 xi3huan ti1ng yi1nyue4", "She doesn't like to listen to music"});
+    		grammarBuilder1.add(new String[] { "Ta1 he1 ka1fe1i", "He drinks coffee"});
+    		grammarBuilder1.add(new String[] { "Ta1 xi3huan he1 ka1fe1i", "He likes to drink coffee"});
+    		grammarBuilder1.add(new String[] { "Ta1 bu4 xi3huan he ka1fe1i", "He doesn't like to drink coffee"});
+    		grammarBuilder1.add(new String[] { "Ta1men xi3huan dia4nyi3ng", "They like movies"});
+    		grammarBuilder1.add(new String[] { "Ta1men xi3huan ka4n dia4nyi3ng", "They like to watch movies"});
+    		grammarBuilder1.add(new String[] { "Ta1men bu4 xi3huan ka4n dia4nyi3ng", "They don't like to watch movies"});
 
+    		lessonVocab2.add(new String[] { "da1i", "to stay"});
+    		lessonVocab2.add(new String[] { "jia1", "home"});
+    		lessonVocab2.add(new String[] { "za4i jia1", "at home"});
+    		lessonVocab2.add(new String[] { "ti3yu4", "sports"});
+    		lessonVocab2.add(new String[] { "jie2mu4", "programs"});
+    		lessonVocab2.add(new String[] { "da3", "to hit"});
+    		lessonVocab2.add(new String[] { "ba4ngqiu2", "baseball"});
+    		lessonVocab2.add(new String[] { "la2nqiu2", "basketball"});
+    		lessonVocab2.add(new String[] { "ga3nla3nqiu2", "football"});
+    		lessonVocab2.add(new String[] { "yo2uyo3ng", "to swim"});
+    		lessonVocab2.add(new String[] { "hua2xue3", "to ski"});
+    		lessonVocab2.add(new String[] { "xi3huan bu4 xi3huan?", "like or don't like?"});
+    		
+    		
+    		grammarBuilder2.add(new String[] { "xi3 bu4 xi3huan?", "like or don't like?"});
+    		grammarBuilder2.add(new String[] { "Ni3 xi3 bu4 xi3huan xia3oshuo1?", "Do you like novels?"});
+    		grammarBuilder2.add(new String[] { "Wo3 xi3huan xia3oshuo1", "I like novels"});
+    		grammarBuilder2.add(new String[] { "Ni3 xi3 bu4 xi3huan ka4n xia3oshuo1?", "Do you like to read novels?"});
+    		grammarBuilder2.add(new String[] { "Wo3 bu4 xi3huan ka4n xia3oshuo1", "I don't like to read novels"});
+    		grammarBuilder2.add(new String[] { "Ta1 xi3 bu4 xi3huan ka4n yi3yu4 jie3mu4?", "Does he like to watch sports programs?"});
+    		grammarBuilder2.add(new String[] { "Ta1 bu4 xi3huan ka4n ti3yu4 jie2mu4", "He doesn't like to watch sports programs"});
+    		grammarBuilder2.add(new String[] { "Ta1 xi3 bu4 xi3huan da3 la2nqui2?", "Does she like to play basketball?"});
+    		grammarBuilder2.add(new String[] { "Ta1 xi3huan da3 la2nqiu2", "She likes to play basketball"});
+    		grammarBuilder2.add(new String[] { "Ta1men xi3 bu4 xi3huan yo2uyo3ng?", "Do they like to swim?"});
+    		grammarBuilder2.add(new String[] { "Ta1men bu4 xi3huan yo2uyo3ng", "They don't like to swim"});
+    		grammarBuilder2.add(new String[] { "Ni3 xi3 bu4 xi3huan hua2xue3?", "Do you like to ski?"});
+    		grammarBuilder2.add(new String[] { "xi3huan hua2xue3", "I like to ski"});
+    		grammarBuilder2.add(new String[] { "Wo3 xi3huan ta1", "I like her"});
+    		grammarBuilder2.add(new String[] { "Ta1 xi3huan wo3", "She doesn't like me"});
+    		
+    		lessonWorkOut1.add(new String[] { "Ni3 xi3huan he1 ka1fe1i ma?", "Do you like to drink coffee?"});
+    		lessonWorkOut1.add(new String[] { "Ni3 bu4 xi3huan ka4n ba4ozhi3 ma?", "You don't like to read newspapers?"});
+    		lessonWorkOut1.add(new String[] { "Ni3men bu4 xi3huan ka4n dia4nyi3ng ma?", "Don't you people like to watch movies?"});
+    		lessonWorkOut1.add(new String[] { "Ni3 xi3huan da1i za4i jia1 ma?", "Do you like to stay home?"});
+    		lessonWorkOut1.add(new String[] { "Ta1men bu4 xi3huan da3 ba1ngqiu2 ma?", "They don't like to play baseball?"});
+    		
+    		lessonWorkOut2.add(new String[] { "Ni3 xi3huan ti1ng yi1nyue4 ma?", "Do you like to listen to music?"});
+    		lessonWorkOut2.add(new String[] { "Wo3 bu4 (xi3huan)", "I don't"});
+    		lessonWorkOut2.add(new String[] { "Wo3 xi3huan ka4n dia4nyi3ng , ni3 ne?", "I like to watch movies , and you?"});
+    		lessonWorkOut2.add(new String[] { "Wo3 xi3huan ka4n xia3oshuo1", "I like to read novels"});
+    		lessonWorkOut2.add(new String[] { "Wo3 bu4 ka4n xia3oshuo1", "I don't read novels"});
+    		lessonWorkOut2.add(new String[] { "Wo3 ka4n ba4ozhi3", "I read newspapers"});
+    		lessonWorkOut2.add(new String[] { "Ni3 xi3 bu4 xi3huan yo2uyo3ng?", "Do you like swimming?"});
+    		lessonWorkOut2.add(new String[] { "Wo3 bu4 (xi3huan)", "I don't"});
+    		lessonWorkOut2.add(new String[] { "Wo3 xi3huan hua2xue3", "I like skiing"});
+    		lessonWorkOut2.add(new String[] { "Ni3 di4di xi3huan she2nme?", "What does your younger brother like?"});
+    		lessonWorkOut2.add(new String[] { "Ta1 xi3huan da1i za4i jia1 , ka4n dia4nshi4 , shui4jia4o", "He likes to stay home , watch TV , (and) sleep"});
+    		break;
     	}
     }
 }

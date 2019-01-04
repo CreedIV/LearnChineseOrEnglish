@@ -33,7 +33,7 @@ public class LearnChinese extends Application {
     final int WIDTH = (int) (GOLDRATIO*HEIGHT);
 
 
-    private static final int MAXLESSON = 8;
+    private static final int MAXLESSON = 10;
     
     // Override the start() method 
     public void start(Stage myStage) {
