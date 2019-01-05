@@ -159,6 +159,8 @@ public class MyUtils {
 
 
     private static void TestSoundFiles(int lessonNum, ArrayList<String[]> lessonData, String partial_path) {
+		System.out.println("testing sounds from lesson : " + lessonNum + " section : " + partial_path);
+
     	for(String[] dataArray : lessonData ) {
     		
     		for(int i = 0; i <= 1; i++) {

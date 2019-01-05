@@ -125,7 +125,7 @@ public class LearnChinese extends Application {
     }
 
     private void testSoundAllLessons() {
-    	for(int i = 1; i < MAXLESSON; i++ ) {
+    	for(int i = 1; i <= MAXLESSON; i++ ) {
     		MyUtils.testSoundFilesLivingLangLesson(i);
     	}
     }
