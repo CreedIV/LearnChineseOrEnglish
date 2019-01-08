@@ -48,7 +48,7 @@ public class MyUtils {
 
 	private static String createWavFilePath(Integer lessonNum, String partialPath, String lessonDataString) {
 		String filename = lessonDataString.replaceAll("[ .?!,()]", "") + ".wav";
-		String path = "./audio/lesson" + lessonNum + "/" + partialPath + "/" + filename;
+		String path = "/audio/lesson" + lessonNum + "/" + partialPath + "/" + filename;
 		return path;
 	}
 	
